@@ -2,3 +2,7 @@ language: node_js
 
 before_install:
   - npm i -g npm@version-number
+
+
+deploy:
+  skip_cleanup: true
